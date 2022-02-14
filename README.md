@@ -1,6 +1,6 @@
 ![name-of-you-image](https://github.com/AdemMarwanMedjahed/GrafanaK8S/blob/main/Nouvelle%20image%20bitmap.bmp)
 
-Nous allons assurer un deploiement K8S de Grafana pour étudier les datas de nos 
+Nous allons assurer un deploiement K8S de Grafana pour étudier les datas colléctés sous forme de graphique. 
 
 ---
 Pour s'assurer qu'on ait toujours un pod fonctionnel on va réaliser un déploiement,
