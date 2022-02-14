@@ -17,3 +17,5 @@ Il faudra aussi créer un service pour expose notre deploy
  Créeons nos objets K8S :
   
         kubectl create -f grafana-deployment.yaml -f grafana-service.yaml -f grafana-pvc.yaml 
+
+Cas d'entreprise ou particulier, on pourras en plus d'exposer a l'aide d'un service passer par un Ingress pour parametrer un host
