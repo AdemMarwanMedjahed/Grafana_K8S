@@ -1,5 +1,5 @@
 # Grafana K8S
-
+https://github.com/AdemMarwanMedjahed/GrafanaK8S/blob/main/Nouvelle%20image%20bitmap.bmp
 Nous allons assurer un deploiement K8S de Grafana pour étudier les datas de nos 
 
 ---
