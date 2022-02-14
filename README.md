@@ -26,5 +26,11 @@ Il faudra penser a modifier notre fichier /etc/hosts
 
 Petite astuce pour voir et installer les plugins sur notre pod : 
         
-        kubectl exec 
-        ![image](https://user-images.githubusercontent.com/37077621/153868231-d2881f24-2479-4237-aeb2-87db22a357d3.png)
+        Plugins installés:
+        kubectl exec -it grafana-nompod grafana-cli plugins ls
+        ---
+        Plugins disponible : 
+        kubectl exec -it grafana-nompod grafana-cli plugins list-remote
+        
+        
+CF: https://grafana.com/docs/grafana/latest/administration/cli/
