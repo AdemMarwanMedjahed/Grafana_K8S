@@ -1,7 +1,8 @@
 # Grafana K8S
 
-Deploy de Grafana K8S
+Nous allons assurer un deploiement K8S de Grafana pour étudier les datas de nos 
 
+---
 Pour s'assurer qu'on ait toujours un pod fonctionnel on va réaliser un déploiement
 
     grafana-deployment.yaml
@@ -23,3 +24,7 @@ Il faudra penser a modifier notre fichier /etc/hosts
 
         kubectl apply -f grafana-ingress.yaml
 
+Petite astuce pour voir et installer les plugins sur notre pod : 
+        
+        kubectl exec 
+        ![image](https://user-images.githubusercontent.com/37077621/153868231-d2881f24-2479-4237-aeb2-87db22a357d3.png)
