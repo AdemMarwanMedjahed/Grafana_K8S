@@ -4,7 +4,7 @@ Deploy de Grafana K8S
 
 Pour s'assurer qu'on ait toujours un pod fonctionnel on va réaliser un déploiement
 
-  -> Grafana-deployment.yaml
+grafana-deployment.yaml
 
 On aura besoin de garder certaines data malgré le fait que l'on relance le pod ou autres, pour ça notre deploy utilise un Volume persistant
 
