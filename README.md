@@ -1,4 +1,4 @@
-# GrafanaK8S
+# Grafana K8S
 
 Deploy de Grafana K8S
 
