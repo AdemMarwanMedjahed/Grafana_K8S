@@ -14,4 +14,6 @@ Il faudra aussi créer un service pour expose notre deploy
 
   -> grafana-service.yaml
   
+ Créeons nos objets K8S :
+  
         kubectl create -f grafana-deployment.yaml -f grafana-service.yaml -f grafana-pvc.yaml 
