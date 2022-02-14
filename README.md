@@ -31,6 +31,9 @@ Petite astuce pour voir et installer les plugins sur notre pod :
         ---
         Plugins disponible : 
         kubectl exec -it grafana-nompod grafana-cli plugins list-remote
+        ---
+        Installation plugin : 
+        kubectl exec -it grafana-nompod grafana-cli plugins install grafana-kubernetes-app
         
         
-CF: https://grafana.com/docs/grafana/latest/administration/cli/
+Grafana CLI doc : https://grafana.com/docs/grafana/latest/administration/cli/
