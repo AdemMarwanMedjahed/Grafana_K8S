@@ -25,7 +25,7 @@ Il faudra penser a modifier notre fichier /etc/hosts
 
         kubectl apply -f grafana-ingress.yaml
 
-Petite astuce pour voir et installer les plugins sur notre pod : 
+Petite astuce pour voir et installer les plugins sur notre pod, vous pourrez evidemment aussi l'installer graphiquement sur votre Grafana : 
         
         Plugins installés:
         kubectl exec -it grafana-nompod grafana-cli plugins ls
@@ -36,5 +36,5 @@ Petite astuce pour voir et installer les plugins sur notre pod :
         Installation plugin : 
         kubectl exec -it grafana-nompod grafana-cli plugins install grafana-kubernetes-app
         
-        
+
 Grafana CLI doc : https://grafana.com/docs/grafana/latest/administration/cli/
