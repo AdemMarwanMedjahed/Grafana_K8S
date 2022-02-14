@@ -4,15 +4,15 @@ Deploy de Grafana K8S
 
 Pour s'assurer qu'on ait toujours un pod fonctionnel on va réaliser un déploiement
 
-  grafana-deployment.yaml
+    grafana-deployment.yaml
 
 On aura besoin de garder certaines data malgré le fait que l'on relance le pod ou autres, pour ça notre deploy utilise un Volume persistant
 
-  grafana-pvc.yaml 
+    grafana-pvc.yaml 
   
 Il faudra aussi créer un service pour exposer notre deploy
 
-  grafana-service.yaml
+    grafana-service.yaml
   
  Créeons nos objets K8S :
   
