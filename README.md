@@ -14,4 +14,4 @@ Il faudra aussi créer un service pour expose notre deploy
 
   -> grafana-service.yaml
   
-        => kubectl create -f grafana-deployment.yaml -f grafana-service.yaml -f grafana-pvc.yaml 
+        kubectl create -f grafana-deployment.yaml -f grafana-service.yaml -f grafana-pvc.yaml 
