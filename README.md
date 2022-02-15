@@ -38,3 +38,4 @@ Petite astuce pour voir et installer les plugins sur notre pod, vous pourrez evi
         
 
 Grafana CLI doc : https://grafana.com/docs/grafana/latest/administration/cli/
+---
